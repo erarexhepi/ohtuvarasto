@@ -3,4 +3,4 @@
 
 #toinen pikkumuutos 
 
-#git add -p testaaminen
+#git add -p testaaminen   .

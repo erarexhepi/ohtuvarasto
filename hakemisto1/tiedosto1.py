@@ -2,4 +2,4 @@
 
 #mooooi pikku muutos
 
-#git add -p testaaminen
+#git add -p testaaminen     .
