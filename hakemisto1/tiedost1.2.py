@@ -1,1 +1,0 @@
-#lisättiin tiedosto kloonattuun versioon
