@@ -42,7 +42,6 @@ class Varasto:
         otettu = min(maara, self.saldo)
         self.saldo -= otettu
         return otettu
-
     def __str__(self):
         """Returns a string representation of the storage status."""
-    return f"saldo = {int(self.saldo)}, vielä tilaa {int(self.paljonko_mahtuu())}"
+        return f"saldo = {int(self.saldo)}, vielä tilaa {int(self.paljonko_mahtuu())}"

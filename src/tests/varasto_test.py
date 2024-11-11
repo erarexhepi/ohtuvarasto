@@ -82,5 +82,5 @@ class TestVarasto(unittest.TestCase):
 
     def test_merkkijono_esitys(self):
         """Test string representation of Varasto."""
-        self.varasto.lisaa_varastoon(5) #.
+        self.varasto.lisaa_varastoon(5)
         self.assertEqual(str(self.varasto), "saldo = 5.0, vielä tilaa 5.0")
