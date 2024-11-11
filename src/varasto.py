@@ -44,5 +44,4 @@ class Varasto:
         return otettu
     def __str__(self):
         """Returns a string representation of the storage status."""
-        return f"saldo = {int(self.saldo)}, vielä tilaa {int(self.paljonko_mahtuu())}"
-        
+        return f"saldo = {self.saldo:.1f}, vielä tilaa {self.paljonko_mahtuu():.1f}"
