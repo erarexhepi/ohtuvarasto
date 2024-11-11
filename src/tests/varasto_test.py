@@ -84,3 +84,4 @@ class TestVarasto(unittest.TestCase):
         """Test string representation of Varasto."""
         self.varasto.lisaa_varastoon(5)
         self.assertEqual(str(self.varasto), "saldo = 5.0, vielä tilaa 5.0")
+        
