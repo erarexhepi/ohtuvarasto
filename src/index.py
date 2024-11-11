@@ -1,7 +1,14 @@
+"""
+This module demonstrates the usage of the Varasto class by creating
+and interacting with Varasto instances.
+"""
+
 from varasto import Varasto
 
-
 def main():
+    """
+    Main function to demonstrate the Varasto class operations.
+    """
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
@@ -52,7 +59,6 @@ def main():
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}")
     print(f"Mehuvarasto: {mehua}")
-
 
 if __name__ == "__main__":
     main()

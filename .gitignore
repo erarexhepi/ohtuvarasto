@@ -1,7 +1,7 @@
 *.tmp
 __pycache__/
 .pytest_cache/
-.coveragerc
+
 .coverage
 htmlcov/
 venv/
